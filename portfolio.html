@@ -15,7 +15,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/main.min.css" /><link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <!--Шапка  сторінки-->
@@ -25,16 +25,16 @@
             ><span class="header-logo-web">Web</span>Studio</a
           >
           <ul class="header-list">
-            <li class="header-item">
-              <a class="header-link-web" href="./index.html" title="Наша Студія">Студія</a>
-            </li>
-            <li class="header-item">
-              <a class="header-link-web current" href="./portfolio.html" title="Наші проекти">Портфоліо</a>
-            </li>
-            <li class="header-item">
-              <a class="header-link-web" href="./index.html" title="Наші контакти">Контакти</a>
-            </li>
-          </ul>
+        <li class="header-item">
+          <a class="header-link-web" href="./index.html" title="Наша Студія">Студія</a>
+        </li>
+        <li class="header-item">
+          <a class="header-link current" href="./portfolio.html" title="Наші проекти">Портфоліо</a>
+        </li>
+        <li class="header-item">
+          <a class="header-link-web" href="./index.html" title="Наші контакти">Контакти</a>
+        </li>
+      </ul>
           <ul class="header-contact-list">
             <li class="header-contact-item">
               <a class="header-contact-link" href="mailto:info@devstudio.com">
@@ -183,65 +183,70 @@
     </section>
   </main>
    <footer class="footer-studio">
-      <div class="container main-footer">
-        <div class="footer-container">
-          <a class="footer-text" href="./index.html" title="Наш Логотип"
-            ><span class="header-logo-web">Web</span>Studio</a
-          >
-          <ul class="footer-address">
-            <li class="footer-item">
-              <a class="footer-map" href="https://google.maps/" rel="noopener noreferrer">
-                г. Київ, пр-т Лесі Українки, 26</a
-              >
-            </li>
-            <li class="footer-item">
-              <a class="footer-link" href="mailto:info@example.com">info@example.com</a>
-            </li>
-            <li class="footer-item">
-              <a class="footer-link" href="tel:+380991111111">+38 099 111 11 11</a>
-            </li>
-          </ul>
-        </div>
-        <div class="last-footer">
-          <h3 class="footer-title">приєднуйтесь</h3>
-          <ul class="footer-social-list">
-            <li>
-              <a href="#" class="footer-social-link">
-                <svg class="footer-soc" width="20" height="20">
-                  <use href="./images/symbol-defs.svg#icon-instagram-new"></use>
-                </svg>
-              </a>
-            </li>
-            <li>
-              <a href="#" class="footer-social-link">
-                <svg class="footer-soc" width="20" height="20">
-                  <use href="./images/symbol-defs.svg#icon-twitter-2"></use>
-                </svg>
-              </a>
-            </li>
-            <li>
-              <a href="#" class="footer-social-link">
-                <svg class="footer-soc" width="20" height="20">
-                  <use href="./images/symbol-defs.svg#icon-facebook-1"></use>
-                </svg>
-              </a>
-            </li>
-            <li>
-              <a href="#" class="footer-social-link">
-                <svg class="footer-soc" width="20" height="20">
-                  <use href="./images/symbol-defs.svg#icon-linkedin-1"></use>
-                </svg>
-              </a>
-            </li>
-          </ul>
-        </div>
+    <div class="container main-footer">
+      <div class="footer-container">
+        <a class="footer-text" href="./index.html" title="Наш Логотип"><span
+            class="header-logo-web">Web</span>Studio</a>
+        <ul class="footer-address-list">
+          <li class="footer-item">
+            <a class="footer-map" href="https://google.maps/" rel="noopener noreferrer">
+              м. Київ, пр-т Лесі Українки, 26</a>
+          </li>
+          <li class="footer-item">
+            <a class="footer-link" href="mailto:info@example.com">info@example.com</a>
+          </li>
+          <li class="footer-item">
+            <a class="footer-link" href="tel:+380991111111">+38 099 111 11 11</a>
+          </li>
+        </ul>
       </div>
-    </footer>
-    <div class="backdrop is-hidden" data-modal>
-      <div class="modal">
-        <button class="button-close" data-modal-close>X</button>
+      <div class="footer-connect">
+        <h3 class="footer-title">приєднуйтесь</h3>
+        <ul class="footer-social-list">
+          <li>
+            <a href="#" class="footer-social-link">
+              <svg class="footer-soc" width="20" height="20">
+                <use href="./images/symbol-defs.svg#icon-instagram-new"></use>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="footer-social-link">
+              <svg class="footer-soc" width="20" height="20">
+                <use href="./images/symbol-defs.svg#icon-twitter-2"></use>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="footer-social-link">
+              <svg class="footer-soc" width="20" height="20">
+                <use href="./images/symbol-defs.svg#icon-facebook-1"></use>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="footer-social-link">
+              <svg class="footer-soc" width="20" height="20">
+                <use href="./images/symbol-defs.svg#icon-linkedin-1"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer-field">
+        <h3 class="footer-title-mail">Підпишіться на розсилку</h3>
+        <div class="footer-buttons">
+          <label class="footer-mail-label" for="footer-invite"></label>
+          <input type="mail" class="footer-mail-input" name="footer-invite" placeholder="E-mail">
+          <button type="button" class="footer-plane-btn">Підписатися
+            <svg class="footer-plane-svg" width="24" height="24">
+              <use href="./images/symbol-defs.svg#icon-icon-plane"></use>
+            </svg>
+          </button>
+        </div>
       </div>
     </div>
-    <script src="./js/modal.js"></script>
+    </div>
+  </footer>
   </body>
 </html>
